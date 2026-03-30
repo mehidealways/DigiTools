@@ -54,7 +54,7 @@ const NavBar = () => {
           <p>
             <a href="">Login</a>
           </p>
-          <button className="btn py-6 px-10 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+          <button className="btn text-white py-6 px-10 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
             Get Started
           </button>
         </div>
