@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Basic features for beginners",
+    "price": 10,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic support", "Export to PDF"],
+    "icon": "starter-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Plan",
+    "description": "Best for professionals",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Priority support",
+      "Export to PDF"
+    ],
+    "icon": "pro-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise Plan",
+    "description": "Advanced features for teams",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited templates",
+      "Team collaboration",
+      "Advanced analytics",
+      "Custom branding"
+    ],
+    "icon": "enterprise-icon.png"
+  },
+  {
+    "id": 4,
+    "name": "Lifetime Deal",
+    "description": "One-time payment for lifetime access",
+    "price": 199,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All features included",
+      "Lifetime updates",
+      "Premium support"
+    ],
+    "icon": "lifetime-icon.png"
+  }
+]
