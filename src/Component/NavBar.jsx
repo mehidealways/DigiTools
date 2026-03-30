@@ -4,7 +4,7 @@ import { BsCart } from 'react-icons/bs';
 const NavBar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm px-5">
+      <div className="navbar shadow-sm px-16 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,7 +26,7 @@ const NavBar = () => {
             </div>
           </div>
           <a className="btn btn-ghost text-xl">
-            <img className="w-[120px]" src="/public/assets/Logo.png" alt="" />
+            <img className="w-30" src="/public/assets/Logo.png" alt="" />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
