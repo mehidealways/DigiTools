@@ -123,14 +123,16 @@ const Cards = ({
               <div className="flex items-center justify-between mb-3">
                 <img
                   className="border border-amber-200 rounded-full w-12"
-                  src="/assets/products/writing_2327400 1.png"
+                  src={product.icon}
                   alt={product.name}
                 />
                 <p
                   className={`px-4 py-1 rounded-full text-sm ${
                     product.tag === 'best seller'
                       ? 'bg-[#FEF3C6] text-[#BB4D00]'
-                      : 'bg-purple-300 text-purple-900'
+                      : product.tag === 'new'
+                        ? 'bg-green-300 text-green-900'
+                        : 'bg-purple-300 text-purple-900'
                   }`}
                 >
                   {product.tag || 'New'}

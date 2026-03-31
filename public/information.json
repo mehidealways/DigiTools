@@ -8,7 +8,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["10+ templates", "Basic support", "Export to PDF"],
-    "icon": "starter-icon.png"
+    "icon": "./assets/products/design-tool.png"
   },
   {
     "id": 2,
@@ -24,7 +24,7 @@
       "Priority support",
       "Export to PDF"
     ],
-    "icon": "pro-icon.png"
+    "icon": "./assets/products/operation.png"
   },
   {
     "id": 3,
@@ -40,7 +40,7 @@
       "Advanced analytics",
       "Custom branding"
     ],
-    "icon": "enterprise-icon.png"
+    "icon": "./assets/products/social-media.png"
   },
   {
     "id": 4,
@@ -55,6 +55,42 @@
       "Lifetime updates",
       "Premium support"
     ],
-    "icon": "lifetime-icon.png"
+    "icon": "./assets/products/shopping-cart.png"
+  },
+
+ 
+  {
+    "id": 5,
+    "name": "Growth Plan",
+    "description": "Perfect for scaling businesses",
+    "price": 49,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "200+ templates",
+      "Advanced SEO tools",
+      "Priority email support",
+      "Analytics dashboard"
+    ],
+    "icon": "./assets/products/portfolio.png"
+  },
+
+ 
+  {
+    "id": 6,
+    "name": "Premium Plus",
+    "description": "All-in-one premium solution",
+    "price": 149,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "All premium templates",
+      "AI content generation",
+      "24/7 support",
+      "Custom integrations"
+    ],
+    "icon": "./assets/products/writing_2327400 1.png"
   }
 ]
