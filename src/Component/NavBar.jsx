@@ -50,7 +50,7 @@ const NavBar = () => {
         </div>
 
         <div className="navbar-end gap-4">
-          <BsCart />
+          <BsCart className='cursor-pointer' />
           <p>
             <a href="">Login</a>
           </p>
