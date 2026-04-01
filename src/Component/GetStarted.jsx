@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetStarted = () => {
   return (
-    <div className="bg-[#F9FAFC] mt-10 p-30 mb-20">
+    <div className="bg-[#F9FAFC] mt-10 p-30 mb-10">
       <div className="text-center space-y-4">
         <h3 className="text-4xl font-bold text-[#101727]">
           Get Started in 3 Steps

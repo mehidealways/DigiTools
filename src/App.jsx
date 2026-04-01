@@ -5,6 +5,7 @@ import Counting from './Component/Counting';
 import CardArea from './Component/CardArea';
 import Cards from './Component/Cards';
 import GetStarted from './Component/GetStarted';
+import Subscription from './Component/Subscription';
 import { Suspense, useState } from 'react';
 
 const dataInfo = fetch('/information.json').then(res => res.json());
@@ -66,7 +67,7 @@ function App() {
         />
       </Suspense>
       <GetStarted/>
-    
+    <Subscription/>
     </>
   );
 }
