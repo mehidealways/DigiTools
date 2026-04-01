@@ -3,7 +3,7 @@ import React from 'react';
 const Counting = () => {
   return (
     <div className="mt-12">
-      <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <div className="bg-linear-to-r from-indigo-600 to-purple-600 px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-center gap-8">
           {/* Item 1 */}
           <div className="lg:border-r lg:border-white lg:pr-6">
