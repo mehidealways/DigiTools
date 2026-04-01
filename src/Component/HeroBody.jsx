@@ -3,7 +3,7 @@ import { IoPlayOutline } from 'react-icons/io5';
 const HeroBody = () => {
   return (
     <div className="px-4 sm:px-6 lg:px-16 mt-10">
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
+      <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-10">
         {/* Image */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <img
